@@ -1,10 +1,10 @@
-# 🧫 Identifying and Visualizing Marker Genes with Scanpy
+# Identifying and Visualizing Marker Genes with Scanpy
 
 RNA-seq is a technique used to analyze the expression of genes in a biological sample that works by converting RNA molecules into complementary DNA (cDNA), sequencing this cDNA, and mapping the sequence data to a reference genome transcriptome to quantify gene expression levels. 
 
 Whereas traditional bulk RNA sequencing provides an average gene expression profile for a population of cells, single-cell RNA-seq (scRNA-seq) allows for the study of gene expression at a single-cell level, providing insights into cellular heterogeneity and gene expression patterns within individual cells. As a result, scRNA-seq has diverse applications in studying disease mechanisms in specific cell types, identifying new drug targets, and discovering new biomarkers. 
 
-# 🧫 Analyzing scRNA-Seq Data With ScanPy
+# Analyzing scRNA-Seq Data With ScanPy
 
 Scanpy is a Python package that analyzes single-cell RNA sequencing (scRNA-seq) data. It provides a wide range of functionalities for preprocessing, analyzing, and visualizing scRNA-seq data, making it a powerful tool for researchers studying the complex biology of individual cells. While it is possible to perform scRNA-seq analysis without Scanpy, using the package can streamline the process and provide access to a range of advanced analysis tools and techniques, which is especially helpful for researchers new to single-cell genomics.
 
@@ -126,7 +126,7 @@ sc.pl.tracksplot(pbmc, marker_genes_dictionary, groupby='clusters', dendrogram=T
 
 Because heat maps and track plots convey the same information, choosing between using one or the other is simply a matter of preference. Personally, I prefer track plots and find it easier to compare changes in gene expression based on differences in height versus shade of colors.
 
-# 🧫 Identifying Marker Genes By Clusters
+# Identifying Marker Genes By Clusters
 
 In the previous sections, I provided a guide on characterizing clusters using known, pre-defined marker genes. Now, in this final section, we delve into the reverse process— how to identify marker genes that are differentially expressed between clusters or cell types, which is applicable in various research contexts, particularly in the discovery of biomarkers.
 
